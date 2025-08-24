@@ -1,0 +1,5 @@
+[google-seo-guidelines]
+name = Google SEO Guidelines
+description = Official Google Search Quality Rater Guidelines + SEO Starter Guide reformatted into clean Markdown. Useful for SEO research, audits, and LLM grounding.
+source = https://github.com/vikaskbh/google-seo-guidelines
+version = 2025-01

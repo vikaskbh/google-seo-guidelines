@@ -8,7 +8,7 @@ They are optimized for use with **LLMs**, **semantic search**, and **Context7 in
 ## 📚 Table of Contents
 - [SEO Starter Guide](./seo_starter.md)  
 - [Quality Rater Guidelines – Overview](./google_quality_raters_guidelines_overview.md)  
-- [Quality Rater Guidelines – Full](./google_quality_raters_guidelines_final.md)  
+- [Quality Rater Guidelines – Full](./google_quality_raters_guidelines.md)  
 
 ---
 

@@ -1,29 +1,49 @@
 # Google SEO Guidelines for LLMs
 
-This repository contains the official **Google Search Quality Evaluator Guidelines** and **SEO Starter Guide**, reformatted into clean Markdown for use with **LLMs and semantic search**.
+This repository contains the official **Google Search Quality Evaluator Guidelines** and the **Google SEO Starter Guide**, reformatted into clean Markdown.  
+They are optimized for use with **LLMs**, **semantic search**, and **Context7 integration**.
 
-## Contents
-- `google_quality_raters_guidelines.md` – Full rater guidelines  
-- `google_quality_raters_guidelines_overview.md` – Condensed overview  
-- `seo_starter.md` – Google SEO Starter Guide  
+---
 
-## Purpose
+## 📚 Table of Contents
+- [SEO Starter Guide](./seo_starter.md)  
+- [Quality Rater Guidelines – Overview](./google_quality_raters_guidelines_overview.md)  
+- [Quality Rater Guidelines – Full](./google_quality_raters_guidelines_final.md)  
+
+---
+
+## 🎯 Purpose
 These documents are often referenced in SEO research, audits, and training.  
 Here they are provided in a format optimized for:
-- **Embedding in vector databases (pgvector, Supabase, etc.)**
-- **Context7 integration** (so you can ground LLMs with the latest guidelines)
-- **Semantic search** and retrieval-augmented generation (RAG) projects
 
-## Usage
-If you’re using **Context7**, you can add this repo as a library and then call:
+- **Embedding in vector databases** (pgvector, Supabase, Pinecone, etc.)  
+- **Context7 integration** for grounding AI assistants  
+- **Semantic search & Retrieval-Augmented Generation (RAG)** projects  
 
-```context7 use [google-seo-guidelines]```
+---
+
+## 🚀 Usage
+
+### Context7
+Add this repo in Context7 as a library. Then, in your AI workspace:
+
+# context7 use [google-seo-guidelines]
 
 
-to restrict your AI assistant to answers grounded only in Google’s SEO guidelines.
+This restricts your LLM to answers grounded in Google’s SEO guidelines.
 
-For Supabase or LangChain, you can load these Markdown files, split them into chunks, and embed them using OpenAI’s `text-embedding-3-small` or `text-embedding-3-large`.
+### Supabase / LangChain
+You can load these Markdown files, split them into chunks, and embed them with OpenAI’s `text-embedding-3-small` or `text-embedding-3-large`.
 
-## License
-These documents are © Google. Reformatted here for research and educational purposes.  
+---
+
+## 📌 Version
+Last updated: **January 2025**  
+Source: [Google](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) + official Quality Rater Guidelines PDF.
+
+---
+
+## ⚖️ License
+The documents are © Google.  
+This repo only reformats them into Markdown for **research and educational purposes**.  
 No modifications were made to the meaning or intent of the content.
